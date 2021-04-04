@@ -11,6 +11,6 @@ For using the saved model to generate images, set LOAD_MODEL to True and EPOCHS 
 #### LSUN-Church
 <img src="/Results/LSUN_Church.png"></img>
 #### LSUN-Bedroom
-<img src="/Results/LSUN_Bedroom.png" width="700"></img>
+<img src="/Results/LSUN_Bedroom.png"></img>
 #### CelebA
-<img src="/Results/CelebA.png" width="700"></img>
+<img src="/Results/CelebA.png"></img>
