@@ -4,7 +4,6 @@ import torchvision.utils as vutils
 import numpy as np
 from torchvision import datasets
 from torchvision import transforms
-from torchsummary import summary
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -158,10 +157,8 @@ if LOAD_MODEL:
 # Model Summary
 print("------------------Generator------------------")
 print(gen)
-summary(gen, (Z_DIM,), device='cpu')
 print("------------------Discriminator------------------")
 print(dis)
-summary(dis, (CHANNELS, 112, 112), device='cpu')
 
 # Define Optimizers
 g_opt = optim.Adam(gen.parameters(), lr=0.001, betas=(0.5, 0.999), weight_decay=2e-5)
