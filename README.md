@@ -1,5 +1,5 @@
 # Pytorch-LSGAN
-Unofficial pytorch implementation of Least Squares Generative Adversarial Networks(LSGAN) for generating 112x112images.
+Unofficial pytorch implementation of Least Squares Generative Adversarial Networks(LSGAN) for generating 112x112 images.
 
 <br>
 Change the DB variable to change the dataset.
